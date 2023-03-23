@@ -1,0 +1,32 @@
+.chart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 10px;
+    width: 600px;
+    background-color:blue;
+  }
+
+  .container{
+    margin: -2px 0;
+  }
+  
+  .bar {
+    height: 15px;
+    width: 15px;
+    margin-bottom: 20px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+
+  .tag{
+    transform: skewY(-45deg);
+    
+  }
+
+  .tagElt{
+    transform: skew(10deg);
+    font-size: 10px;
+    font-weight: 800;
+  }
+  
